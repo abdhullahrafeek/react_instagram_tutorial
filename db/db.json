@@ -66,5 +66,37 @@
         }
       ]
     }
+  ],
+  "profile": {
+    "id": 1,
+    "user_name": "abdullah",
+    "profile_pic": "https://i.pravatar.cc/150?img=5"
+  },
+  "suggestions": [
+    {
+      "id": 105,
+      "user_name": "lara",
+      "profile_pic": "https://i.pravatar.cc/150?img=9"
+    },
+    {
+      "id": 102,
+      "user_name": "jacob",
+      "profile_pic": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+      "id": 205,
+      "user_name": "john",
+      "profile_pic": "https://i.pravatar.cc/150?img=10"
+    },
+    {
+      "id": 315,
+      "user_name": "doe",
+      "profile_pic": "https://i.pravatar.cc/150?img=18"
+    },
+    {
+      "id": 12,
+      "user_name": "mark",
+      "profile_pic": "https://i.pravatar.cc/150?img=13"
+    }
   ]
 }
