@@ -7,9 +7,23 @@
 }
 
 .logo-text {
-    width: 50%
+    width: 100px
 }
 
 .bi {
     margin-right: 10px;
+}
+
+.story {
+    height: 60px
+}
+
+.dp {
+    width: 30px;
+    margin: 5px;
+    margin-left: 0px
+}
+
+.image {
+    width: 300px
 }
