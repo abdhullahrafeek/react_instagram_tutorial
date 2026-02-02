@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "id": 1,
+        "user_name": "abdullah",
+        "profile_pic": "https://i.pravatar.cc/150?img=3"
+      },
+      "image": "https://picsum.photos/500/400?random=1",
+      "caption": "First day building my own dashboard 🚀",
+      "likes": 25,
+      "comments": [
+        {
+          "id": 1,
+          "user_name": "john",
+          "text": "Nice work!"
+        },
+        {
+          "id": 2,
+          "user_name": "maria",
+          "text": "Looks great 👏"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "user": {
+        "id": 2,
+        "user_name": "alex",
+        "profile_pic": "https://i.pravatar.cc/150?img=12"
+      },
+      "image": "https://picsum.photos/500/400?random=2",
+      "caption": "React + FastAPI coming together 🔥",
+      "likes": 41,
+      "comments": [
+        {
+          "id": 1,
+          "user_name": "abdullah",
+          "text": "Nice stack!"
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "user": {
+        "id": 3,
+        "user_name": "sara",
+        "profile_pic": "https://i.pravatar.cc/150?img=32"
+      },
+      "image": "https://picsum.photos/500/400?random=3",
+      "caption": "Future robotics startup ideas brewing 💡",
+      "likes": 63,
+      "comments": [
+        {
+          "id": 1,
+          "user_name": "kevin",
+          "text": "Respect 💪"
+        },
+        {
+          "id": 2,
+          "user_name": "abdullah",
+          "text": "Let’s build!"
+        }
+      ]
+    }
+  ]
+}
