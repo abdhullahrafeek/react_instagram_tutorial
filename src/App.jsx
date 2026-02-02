@@ -1,10 +1,11 @@
+import Feed from "./Feed";
 import Sidebar from "./Sidebar";
 
 const App = () => {
   return (
     <div className="d-flex vh-100">
       <div className="w-20"><Sidebar /></div>
-      <div className="w-50">feed</div>
+      <div className="w-50"><Feed /></div>
       <div className="w-30">suggestion</div>
     </div>
   );
