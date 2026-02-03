@@ -98,5 +98,36 @@
       "user_name": "mark",
       "profile_pic": "https://i.pravatar.cc/150?img=13"
     }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "user": {
+        "id": 1,
+        "user_name": "abdullah",
+        "profile_pic": "https://i.pravatar.cc/150?img=3"
+      },
+      "image": "https://picsum.photos/1080/1920?random=1"
+    },
+
+    {
+      "id": 2,
+      "user": {
+        "id": 2,
+        "user_name": "alex",
+        "profile_pic": "https://i.pravatar.cc/150?img=12"
+      },
+      "image": "https://picsum.photos/1080/1920?random=2"
+    },
+
+    {
+      "id": 3,
+      "user": {
+        "id": 3,
+        "user_name": "sara",
+        "profile_pic": "https://i.pravatar.cc/150?img=32"
+      },
+      "image": "https://picsum.photos/1080/1920?random=3"
+    }
   ]
 }
