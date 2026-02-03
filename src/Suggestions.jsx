@@ -15,7 +15,7 @@ const Suggestions = () => {
         then((data) => data.json()).
         then((data) => setsuggestions(data)).
         catch((err) => console.log(err));
-    })
+    }, [])
 
     return (
         <div className="suggestions w-75 m-4">
