@@ -1,4 +1,9 @@
+import { useNavigate } from "react-router-dom"
+
 const Sidebar = () => {
+
+    const navigate = useNavigate();
+
     return (
         <div className="m-3 position-fixed">
             <div className="d-flex flex-column gap-2">
@@ -10,7 +15,7 @@ const Sidebar = () => {
                 <div><i className="bi bi-chat"></i>Messages</div>
                 <div><i className="bi bi-bell"></i>Notifications</div>
                 <div><i className="bi bi-plus-square"></i>Create</div>
-                <div><i className="bi bi-plus-square"></i>Profile</div>
+                <div onClick={() => {navigate('/profile')}}><i className="bi bi-person-circle"></i>Profile</div>
             </div>
             <div className="position-fixed bottom-0 d-flex flex-column gap-2 mb-3">
                 <div><i className="bi bi-threads"></i>Threads</div>
